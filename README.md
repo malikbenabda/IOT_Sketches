@@ -8,8 +8,8 @@ float getTemp(int a) {
   float temperature = 1 / (log(resistance / 10000) / 3975 + 1 / 298.15) - 273.15;
   return  temperature;
 }
-
-
+    
+        
 /**
   *
    Float to String
